@@ -1,12 +1,11 @@
 import React from 'react';
-import Logo from './assets/img/logo.png';
 
 const Header = ({ openModal }) => {
   return (
     <header className="header">
       <div className="headerSection">
         <div className="logo">
-          <img src={Logo} alt="logo" />
+          <img src="/assets/img/logo.png" alt="logo" />
         </div>
         <nav className="menu">
           <ul className="menuList">
