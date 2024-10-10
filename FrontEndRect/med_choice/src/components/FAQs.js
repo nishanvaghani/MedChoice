@@ -14,16 +14,58 @@ const FAQItem = ({ title, children }) => (
 const FAQs = () => (
   <section className="FAQs" id="FAQs">
     <div className="container">
-      <div className="faqCard">
-        <h2 className="sectionHeader">FAQs</h2>
-        <p className="sectionContent">Most frequently asked questions</p>
-        <FAQItem title="Lorem ipsum dolor sit amet consectetur">
-          Sweet roll donut bonbon cheesecake pudding ice cream oat cake chocolate apple pie.
-        </FAQItem>
-        <FAQItem title="Lorem ipsum dolor">
-          Sweet roll donut bonbon cheesecake pudding ice cream oat cake chocolate apple pie.
-        </FAQItem>
-      </div>
+        <div className="faqCard">
+            <div className="sectionHeader">FQAs</div>
+            <div className="sectionContent">Most frequently asked questions</div>
+            <div className="faq">
+                <div className="details">
+                    <details className="details__container">
+                        <summary className="details__summary">
+                            <h2 className="details__title"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </h2>
+                        </summary>
+                    </details>
+                    <div className="details__desc">
+                        <div className="details__desc-inner">
+                            Sweet roll donut bonbon cheesecake pudding ice cream oat cake chocolate apple pie. <a
+                                href="#link">Marshmallow</a> sweet roll muffin macaroon donut. Tootsie roll cupcake
+                            cotton candy jujubes apple pie apple pie jelly beans. Marshmallow jelly-o marzipan
+                            caramels pudding icing toffee lemon drops carrot cake.
+                        </div>
+                    </div>
+                </div>
+                <div className="details">
+                    <details className="details__container">
+                        <summary className="details__summary">
+                            <h2 className="details__title">Lorem ipsum dolor</h2>
+                        </summary>
+                    </details>
+                    <div className="details__desc">
+                        <div className="details__desc-inner">
+                            Sweet roll donut bonbon cheesecake pudding ice cream oat cake chocolate apple pie.
+                            Marshmallow sweet roll muffin macaroon donut. Tootsie roll cupcake cotton candy jujubes
+                            apple pie apple pie jelly beans. Marshmallow jelly-o marzipan caramels pudding icing
+                            toffee lemon drops carrot cake.
+                        </div>
+                    </div>
+                </div>
+                <div className="details">
+                    <details className="details__container">
+                        <summary className="details__summary">
+                            <h2 className="details__title">Lorem ipsum dolor</h2>
+                        </summary>
+                    </details>
+                    <div className="details__desc">
+                        <div className="details__desc-inner">
+                            Sweet roll donut bonbon cheesecake pudding ice cream oat cake chocolate apple pie.
+                            Marshmallow sweet roll muffin macaroon donut. Tootsie roll cupcake cotton candy jujubes
+                            apple pie apple pie jelly beans. Marshmallow jelly-o marzipan caramels pudding icing
+                            toffee lemon drops carrot cake.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
   </section>
 );
